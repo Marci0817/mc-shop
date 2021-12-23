@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*{
+	font-family: 'Bungee', cursive;
+}
+body{
+  background-color: transparent !important;
+	height: 100%;
+	/*background-image: url("bg.png");*/
+}
+#container{
+  overflow: auto;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0,0,0,0.8);
+  border: 3px solid grey;
+  border-radius: 15px;
+  padding: 20px;
+  width: 30%;
+  height: 70%;
+  color: white;
+}
+#storage_container{
+  overflow: auto;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0,0,0,0.8);
+  border: 3px solid grey;
+  border-radius: 15px;
+  padding: 20px;
+  width: 50%;
+  height: 60%;
+  color: white;
+}
+.action{
+  color: lightblue;
+}
+.action:hover{
+  color: red;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(255,255,255, 0.1); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255,255,255); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777; 
+}
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+                                 
+}
+ul{
+	list-style: none;
+
+}
+.itemShop{
+	margin-bottom: 5%;
+}
+.leftSpanLee{
+	margin-left: 3%;
+}
+
+.buyItem{
+  cursor: pointer;
+}
+.buyItem:hover{
+  color: red;
+}
+
+.pointerCursor{
+  cursor: pointer;
+  color: grey;
+  font-size: 1.2rem;
+}
+.pointerCursor:hover{
+  color: lightblue;
+}
+.textInput{
+  width: 12%;
+  border-radius: 7px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: transparent;
+  color: white;
+}
+.buttonSure{
+  border-radius: 7px;
+  border-radius: 1px solid black;
+  background-color: lightblue;
+}
